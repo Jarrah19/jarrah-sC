@@ -1,0 +1,199 @@
+.arms {
+	box-shadow: 0 15px 20px 23px rgba(0,0,0,0.12);
+	width: 53.7em;
+	//width: 860px;
+	//height: 1001px;
+	height: 62.504em;
+	//margin: 50px auto 55px auto;
+	margin: 3.13em auto 3.45em auto;
+	//padding-top: 50px;
+	padding-top: 3.13em;
+}
+
+.frame {
+	//width: 700px;
+	width: 43.753em;
+	//height: 951px;
+	height: 59.39em;
+	margin: auto;
+}
+
+/* div 头部横板块
+ */
+header { //
+	background-color: lightgray;
+	//width: 700px;
+	width: 43.753em;
+	//height: 102px;
+	height: 6.2504em;
+	//float: left;
+	clear:both;
+}
+
+.line1 {
+	width: 100%;
+	//height: 33px; 
+	height: 2.0626em;//
+	background-color: yellow;
+	//margin-bottom: 16px;
+	margin-bottom:1em;
+}
+
+.line2 {
+	width: 100%;
+	//height: 33px;
+	height: 2.0626em; //
+	background-color: yellow;
+	//margin-bottom: 16px;
+	margin-bottom:1em;
+}
+
+h2 {
+	font-weight: normal;
+	color: gray;
+	//letter-spacing: 2px;
+	letter-spacing: 0.125em;
+}
+
+hr {
+	color: lightgray;
+	//margin-top: 3px;
+	margin-top: 0.1875em;
+}
+
+.phone { //
+	background-color: blue;
+	float: right;
+	color: gray;
+	margin-top:0.77em;
+	margin-bottom: 0px;
+}
+
+.email {
+	//margin-top: 4px;
+	margin-top:0.27em;
+	margin-bottom: 0px; //
+	background-color: blue;
+	float: right;
+	color: gray
+}
+
+h1 {
+	//letter-spacing: 5px;
+	letter-spacing: 0.31252em;
+}
+
+.icon {
+	//margin-top: 4px;
+	margin-top:0.25em;
+	//margin-left: 20px;
+	margin-left:1.25em;
+	//height: 17px;
+	height: 1.23125em;
+	//width: 20px;
+	width:1.25em;
+}
+/* div2 基本资料板块
+ */
+.div2 {
+	//margin-top: 58px;
+	margin-top: 3.625232em; //
+	background-color: lightgray;
+	//width: 400px;
+	width:25em;
+	//height: 120px;
+	height:7.5em;
+	float: left
+}
+/* div3 经历板块
+ */
+.div3 {
+	//margin-top: 58px; 
+	margin-top: 3.625232em;
+	//background-color: lightgray;
+	//width: 400px;
+	width: 25em;
+	//height: 613px;
+	height:38.315em;
+	float: left
+}
+/* div4 头像
+ */
+.div4 {
+	//margin-top: 51px;
+	margin-top: 3.1877em;	
+	//margin-right: 51px;
+	margin-right: 3.1877em;	
+	background-image: url("../image/headphoto.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50%;
+	//width: 134px;
+	//height: 134px;
+	width: 8.3755em;
+	height: 8.3755em;
+	float: right;
+}
+/* div5 教育
+ */
+.div5 {
+	//margin-top: 51px; 
+	margin-top: 3.1877em;	
+	//
+	background-color: lightgray;
+	//width: 220px;
+	width: 13.75em;
+	//height: 252px;
+	height: 15.75em;
+	float: right;
+}
+/* div6 技能
+ */
+.div6 {
+	//margin-top: 51px; 
+	margin-top: 3.1877em;	
+	//
+	background-color: lightgray;
+	//width: 220px;
+	width: 13.75em;
+	//height: 242px;
+	height: 15.126em;
+	float: right;
+}
+
+.titles {
+	width: 100%;
+	display: inline-block;
+	background-color: lightgray;
+	font-weight: bold;
+	font-size: large;
+	//letter-spacing: 5px;
+	letter-spacing: 0.2125em; //
+	//background-color: pink;
+	font-style: normal;
+}
+
+.subtitles {
+	//margin-top: 20px;
+	margin-top: 1.25em;
+	width: 100%;
+	display: inline-block;
+	font-weight: bold;
+	//background-color: pink;
+}
+
+.content {
+	//margin-top:13px;
+	margin-top:0.812552em;
+	width: 100%;
+	display: inline-block;
+	color: gray;
+	//background-color: pink;
+}
+header:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover{
+	border-style: solid;
+	border-color:captiontext;
+	background-color: lightgray;
+	opacity: 0.7;
+	//transform: rotateY(180deg);
+}
