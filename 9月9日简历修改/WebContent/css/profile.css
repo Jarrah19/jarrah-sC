@@ -28,6 +28,7 @@ header { //
 	height: 6.2504em;
 	//float: left;
 	clear:both;
+	
 }
 
 .line1 {
@@ -161,28 +162,29 @@ h1 {
 	float: right;
 }
 
-.titles {
+em {
 	width: 100%;
 	display: inline-block;
 	background-color: lightgray;
 	font-weight: bold;
-	font-size: large;
+	font-size: 1.25em;
 	//letter-spacing: 5px;
-	letter-spacing: 0.2125em; //
+	letter-spacing: 0.125em; //
 	//background-color: pink;
 	font-style: normal;
 }
 
-.subtitles {
+i {
 	//margin-top: 20px;
 	margin-top: 1.25em;
 	width: 100%;
 	display: inline-block;
 	font-weight: bold;
 	//background-color: pink;
+	font-style: normal;
 }
 
-.content {
+span {
 	//margin-top:13px;
 	margin-top:0.812552em;
 	width: 100%;
@@ -190,11 +192,12 @@ h1 {
 	color: gray;
 	//background-color: pink;
 }
-header:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover{
-	border-style: solid;
-	border-color:captiontext;
+//header:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover{
+/* 	border-style: solid;
+ */	border-color:captiontext;
 	background-color: lightgray;
 	opacity: 0.7;
 	transform: rotateY(360deg);
 	transition: transform 4s;
-}
+	}
+
